@@ -1,4 +1,4 @@
-name="riya devkota "
+name="riya devkotaH"
 # print(name.upper())  throws error beacuse len is inbuilt function not an string methods
 print("The length of the string is",len(name))
 print("the upper case is",name.upper())
@@ -16,3 +16,14 @@ alpha="yoyo"
 print(alpha.isalpha())
 mix="123yo"
 print(mix.isalnum())
+print(name.endswith("ta",10,12))
+print(name.find("i"))
+print(name.index("a"))
+print(name.islower()) # IF one letter is also cappital it will return false
+print(name.isupper())
+print(name.swapcase()) # conert caiptal into small and vice versa
+print(name.center(60,"*"))
+nam='            '
+print(nam.isspace()) #for space only not in space between text
+print(name.isspace())
+print(name.isprintable())
