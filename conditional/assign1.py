@@ -17,14 +17,14 @@
 
 import time
 name=input("Enter your name :")
-recenttime=time.strftime('%H : %M: %S')
+recenttime=time.strftime('%H : %M: %S %p')
 Recenttime=int(time.strftime('%H'))
 if(4<=Recenttime<12):
-    print("Good morning sir it's",recenttime)
+    print("Good morning",name, "it's",recenttime)
 elif(12<=Recenttime<17):
-    print("Good morning sir its",recenttime)
+    print("Good morning",name, "it's",recenttime)
 elif(17<=Recentime<20):
-    print("Good morning sir its",recenttime)
+    print("Good morning ",name, "it's",recenttime)
 else:
-    print("Good night sir its",recenttime)
+    print("Good night ",name, "it's",recenttime)
     
