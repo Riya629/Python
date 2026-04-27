@@ -12,3 +12,8 @@ print(food)  # here it searches all letters and replace the matching one
 food = "pasta"
 food = food.replace("a", "e", 1)
 print(food)
+
+
+list=["riya","pabitra"]
+list.append("riyan")
+print(list)
