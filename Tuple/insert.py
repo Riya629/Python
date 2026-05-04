@@ -19,3 +19,6 @@ print(countries) #output will be in tuple
 #conacatenating tuple by using extra variable
 Tup=countries+fruits
 print(Tup)
+
+tup=(2,"apple", True)
+print(tup)
