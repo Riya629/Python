@@ -133,9 +133,9 @@ print(fruits)
 
 # # clear() it is used to clear the set
 
-# fruits={"orange","mango","apple"}
-# fruits.clear()
-# print(fruits)
+fruits={"orange","mango","apple"}
+fruits.clear()
+print(fruits)
 
 
 #checking the items in set
