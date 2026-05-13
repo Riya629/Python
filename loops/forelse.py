@@ -9,7 +9,7 @@ else: #else part is printed when our loop completed noramlly but with break if i
 i=0
 while(i<5):
     if(i==3):
-        break #same here in while loop too the loop ended beacuse of break not normally so else aort is not printed
+        break #same here in while loop too the loop ended beacuse of break not normally so else part is not printed
         print(i)
         i=i+1
 else:
