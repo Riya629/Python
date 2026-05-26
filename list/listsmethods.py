@@ -40,3 +40,6 @@ print(list)
  #we can concatenate in this way too by creating an extra variable
 num=list+nums
 print(num)
+
+
+
