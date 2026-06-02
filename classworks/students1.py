@@ -8,6 +8,7 @@ for i in range(0,2):
     "SAD":input("Enter grade of sad:"),
     "JAVA":input("Enter grade of java:")
     }
+    
 def calculategpa(grade):
     if grade=="A":
         return 4.0
