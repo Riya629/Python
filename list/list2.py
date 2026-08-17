@@ -30,3 +30,18 @@ print(list)
 list=[i*i for i in range(10) if i%2==0]
 print(list)
 
+amount=int(input("Enter salary:"))
+if amount<999:
+    vat_amt=amount*13/100
+    discount=0
+elif amount<9999:
+    vat_amt=vat_amt+amount-999*13/100
+    discount=vat_amt*5/100
+
+
+
+
+even=[i for i in range(10) if(i%2==0)]
+# print(even) givr answer in from of list
+for i in even:
+    print(i)
