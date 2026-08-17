@@ -42,4 +42,3 @@ num=list+nums
 print(num)
 
 
-
